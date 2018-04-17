@@ -22,7 +22,7 @@ Usage
 'components' => [
     // ....
     'sape' => [
-        'class' => 'pa3py6aka\yii2\sape\SAPE_client',
+        'class' => 'pa3py6aka\yii2\sape\Sape',
     ],
     // ....
  ]       
@@ -30,6 +30,6 @@ Usage
 
 В нужном месте в view-файле включить отображение ссылок:
 ```
-<?= Yii::$app->sape->return_links($n); ?>
+<?= Yii::$app->sape->client->return_links($n); ?>
 ```
 Где `$n` - нужное количество ссылок(в последнем вызове число указывать не нужно - см. документацию sape)

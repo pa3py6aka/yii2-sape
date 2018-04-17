@@ -3,9 +3,7 @@
 namespace pa3py6aka\yii2\sape;
 
 
-use yii\base\Component;
-
-class SAPE_base extends Component
+class SAPE_base
 {
     protected $_version = '1.3.9';
 

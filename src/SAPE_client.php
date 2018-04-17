@@ -5,8 +5,6 @@ namespace pa3py6aka\yii2\sape;
 
 class SAPE_client extends SAPE_base
 {
-    public $sapeUser = '';
-
     protected $_links_delimiter = '';
     protected $_links           = array();
     protected $_links_page      = array();
@@ -22,10 +20,6 @@ class SAPE_client extends SAPE_base
 
     public function __construct($options = null)
     {
-        if (!defined('_SAPE_USER')){
-            define('_SAPE_USER', $this->sapeUser);
-        }
-
         parent::__construct($options);
 
         $this->_load_data();
