@@ -22,7 +22,7 @@ Usage
 'components' => [
     < .... >
     'sape' => [
-        'class' => 'app\components\Sape\SAPE_client',
+        'class' => 'pa3py6aka\yii2\sape\SAPE_client',
     ],
     < .... >
  ]       
