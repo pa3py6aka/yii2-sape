@@ -20,11 +20,11 @@ Usage
 Включить компонент в настройках:
 ```
 'components' => [
-    < .... >
+    // ....
     'sape' => [
         'class' => 'pa3py6aka\yii2\sape\SAPE_client',
     ],
-    < .... >
+    // ....
  ]       
 ```
 
