@@ -1,0 +1,25 @@
+{
+  "name": "pa3py6aka/yii2-sape",
+  "description": "Wrapper for php Sape client for yii2",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii 2", "sape.ru", "sape", "yii2 sape"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Savelyev",
+      "homepage": "http://weblancer.net/users/alexsava"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pa3py6aka/yii2-sape/issues?state=open",
+    "source": "https://github.com/pa3py6aka/yii2-sape"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "pa3py6aka\\yii2\\sape\\": "src/"
+    }
+  }
+}
