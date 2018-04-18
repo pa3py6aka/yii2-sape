@@ -23,6 +23,7 @@ Usage
     // ....
     'sape' => [
         'class' => 'pa3py6aka\yii2\sape\Sape',
+        'sapeUser' => 'Ваш код клиента' // Например '4de0b73c786b78ba2e50bc2925941a37'
     ],
     // ....
  ]       
