@@ -13,6 +13,8 @@ class Sape extends Component
 {
     public $sapeUser;
 
+    public $charset;
+
     public $client;
 
     public function init()
@@ -22,6 +24,9 @@ class Sape extends Component
             define('_SAPE_USER', $this->sapeUser);
         }
 
-        $this->client = new SAPE_client();
+        $this->charset = $this->charset ?: \Yii::$app->charset;
+        $options['charset'] = $this->charset;
+
+        $this->client = new SAPE_client($options);
     }
 }
